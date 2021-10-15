@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <title>Service Detail</title>
+</head>
+
+<style>
+    ::placeholder{
+        color: #000; 
+    }
+</style>
+<body>
+
+  
+  <nav id="mynav" class="">
+    <div class="wrapper">
+      <div class="logo">
+        <a href="index.html" class="excanc">
+          <img src="images/logo-construction-small.png" alt="" class="logo-nav">
+        </a>
+      </div>
+      <input type="radio" name="slider" id="menu-btn" />
+      <input type="radio" name="slider" id="close-btn" />
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"
+          ><i class="fas fa-times"></i
+        ></label>
+
+        <li>
+          <a href="#" class="desktop-item navbt"
+            >Domain Services <i class="fas fa-sort-down bottomico"></i>
+          </a>
+          <input type="checkbox" id="showDrop" />
+          <label for="showDrop" class="mobile-item"
+            >Domain Services <i class="fas fa-sort-down bottomico"></i></label>
+          <ul class="drop-menu">
+            <li><a href="#" >Domain Services</a></li>
+            <li><a href="#">Domain Management</a></li>
+            <li><a href="#">Domain Acquistion</a></li>
+            <li><a href="#">New gTLDs</a></li>
+            <li><a href="#">Domain Regulations</a></li>
+            <li><a href="#">WhoIs Privacy</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-item navbt"
+            >SSL <i class="fas fa-sort-down bottomico"></i>
+          </a>
+          <input type="checkbox" id="showDrop" />
+          <label for="showDrop" class="mobile-item"
+            >SSL <i class="fas fa-sort-down bottomico"></i></label>
+          <ul class="drop-menu">
+            <li><a href="#" >SSL Certificates</a></li>
+            <li><a href="#" >Domain Validation SSLs</a></li>
+            <li><a href="#" >Organisation Validation SSLs</a></li>
+            <li><a href="#" >Extended Validation SSLs</a></li>
+            <li><a href="#" >Wildcard SSLs</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-item navbt"
+            >Hosting <i class="fas fa-sort-down bottomico"></i>
+          </a>
+          <input type="checkbox" id="showDrop" />
+          <label for="showDrop" class="mobile-item"
+            >Hosting <i class="fas fa-sort-down bottomico"></i></label>
+          <ul class="drop-menu">
+            <li><a href="#" >Hosting Solutions</a></li>
+            <li><a href="#" >Dedicated Servers</a></li>
+            <li><a href="#" >Virtual Servers</a></li>
+            <li><a href="#" >Shared Hosting</a></li>
+            <li><a href="#" >Colocation Hosting</a></li>
+            <li><a href="#" >Data Centre</a></li>
+            <li><a href="#" >Disaster Recovery Solutions</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-item navbt"
+            >Brand Protection <i class="fas fa-sort-down bottomico"></i>
+          </a>
+          <input type="checkbox" id="showDrop" />
+          <label for="showDrop" class="mobile-item"
+            >Brand Protection <i class="fas fa-sort-down bottomico"></i></label>
+          <ul class="drop-menu">
+            <li><a href="#" >Brand Monitoring</a></li>
+            <li><a href="#" >Trademark Clearinghouse</a></li>
+            <li><a href="#" >DPML</a></li>
+            <li><a href="#" >Additional Monitoring</a></li>
+            <li><a href="#" >Legal Services</a></li>
+            <li><a href="#" >Brand Enforcement</a></li>
+            <li><a href="#" >Domain Dispute Resolution</a></li>
+            <li><a href="#" >Domain Valuation</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-item navbt"
+            >Security & Performance <i class="fas fa-sort-down bottomico"></i>
+          </a>
+          <input type="checkbox" id="showDrop" />
+          <label for="showDrop" class="mobile-item"
+            >Security & Performance <i class="fas fa-sort-down bottomico"></i></label>
+          <ul class="drop-menu">
+            <li><a href="#" >Cloudflare</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-item navbt"
+            >Resources <i class="fas fa-sort-down bottomico"></i>
+          </a>
+          <input type="checkbox" id="showDropcom" />
+          <label for="showDropcom" class="mobile-item"
+            >Resources <i class="fas fa-sort-down bottomico"></i></label>
+          <ul class="drop-menu">
+            <li><a href="#" >Blog</a></li>
+            <li><a href="#">Case Studies</a></li>
+            <li><a href="#">White Papers</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="navbt">About Us</a></li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"
+        ><i class="fas fa-bars"></i
+      ></label>
+    </div>
+  </nav>
+
+    <section class="cont-header">
+        <div class="main-cont">
+            <div class="linking">
+                <a href="index.html" class="home_link">HOME</a> > <a href="services.html" class="home_link">SERVICES</a> > GENERAL CONSTRUCTION
+            </div>
+            <div class="cont_heading">
+                Services
+            </div>
+        </div>
+    </section>
+
+    <section class="ser-det-main">
+        <div class="flexcontainer">
+            <div class="flex-15">
+                <div class="linking-sect">
+                    <a href="" class="link-btns">
+                        <div class="link-wr">
+                            <span style="margin-right: 10px;"><i class="far fa-angle-right"></i></span> Over view
+                        </div>
+                    </a>
+                    
+                    <a href="" class="link-btns">
+                        <div class="link-wr">
+                            <span style="margin-right: 10px;"><i class="far fa-angle-right"></i></span> General Construction
+                        </div>
+                    </a>
+                    
+                    <a href="" class="link-btns">
+                        <div class="link-wr">
+                            <span style="margin-right: 10px;"><i class="far fa-angle-right"></i></span> Plumbing
+                        </div>
+                    </a>
+                    
+                    <a href="" class="link-btns">
+                        <div class="link-wr">
+                            <span style="margin-right: 10px;"><i class="far fa-angle-right"></i></span> Painting
+                        </div>
+                    </a>
+                    
+                    <a href="" class="link-btns">
+                        <div class="link-wr">
+                            <span style="margin-right: 10px;"><i class="far fa-angle-right"></i></span> Pre Construction
+                        </div>
+                    </a>
+                </div>
+
+                <div class="cont-form-det">
+                    <h3 class="cont-det-h3">
+                        Contact Us
+                    </h3>
+                    <p class="det-p-ser">
+                        Contact us sending a message or give us a call to discover how we can help.
+                    </p>
+                <form action="contact.php" method="POST">
+                    <input type="text" placeholder="Your name" name="name" required>
+                    <input type="email" placeholder="Your Email" name="email" required>
+                    <input type="text" placeholder="Subject" name="subject" required>
+                    <textarea name="msg" id="" placeholder="Message"></textarea>
+                    <input type="submit" name="submit" class="submitbtn ser-submit">
+                </form>
+                </div>
+            </div>
+            <div class="flex-15i">
+                <h1 class="gene-head">
+                    General Construction
+                </h1>
+                <p class="ser-det-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quis eveniet minus obcaecati, dolor non placeat accusantium nisi quae qui amet impedit blanditiis delectus commodi! Optio fuga maiores similique reprehenderit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quas nam blanditiis? Ratione architecto necessitatibus suscipit est assumenda in nulla .
+                </p>
+                <p class="ser-det-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quis eveniet minus obcaecati, dolor non placeat accusantium nisi quae qui amet impedit blanditiis delectus commodi! Optio fuga maiores similique reprehenderit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quas nam blanditiis? Ratione architecto necessitatibus suscipit est assumenda in nulla accusantium sunt earum nemo vitae iure eveniet, eius iste dolore.
+                </p>
+                <div class="img-text">
+                    <p class="ser-det-p">
+                    <img src="images/construction-generic-1-medium-367x300.jpg" alt="" class="det-img-ser">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quis eveniet minus obcaecati, dolor non placeat accusantium nisi quae qui amet impedit blanditiis delectus commodi! Optio fuga maiores similique reprehenderit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quas nam blanditiis? Ratione architecto necessitatibus suscipit est assumenda in nulla. Iure quas nam blanditiis? Ratione architecto necessitatibus suscipit est assumenda in nulla .
+                    </p>
+                </div>
+                <h3 class="cont-det-h3">
+                    Our Process
+                </h3>
+                <p class="ser-det-p">
+                    <i class="seric far fa-check"></i> Lorem ipsum dolor sit amet
+                </p>
+                <p class="ser-det-p">
+                    <i class="seric far fa-check"></i> amet impedit blanditiis delectus commodi!
+                </p>
+                <p class="ser-det-p">
+                    <i class="seric far fa-check"></i> architecto necessitatibus suscipit est
+                </p>
+                <p class="ser-det-p">
+                    <i class="seric far fa-check"></i> reprehenderit?Lorem ipsum dolor sit amet consectetur
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="flexcontainer">
+          <div class="flex-11">
+            <a href="">
+            <img src="images/logo-construction-small.png" alt="" class="logo-foot">
+            </a>
+          </div>
+          
+          <div class="flex-11i">
+            <h5 class="navigation">Navigation</h5>
+            <div class="footer_link">
+              <div class="foot-btn">
+                <a href="" class="foot-link">
+                  Home
+                </a>           
+              </div>
+              <div class="foot-btn">
+                <a href="" class="foot-link">
+                  Company
+                </a>           
+              </div>
+              <div class="foot-btn">
+                <a href="" class="foot-link">
+                  Services
+                </a>           
+              </div>
+            </div>
+          </div>
+          
+          <div class="flex-11i">
+            <h5 class="navigation"></h5>
+            <div class="footer_links">
+              <div class="foot-btn">
+                <a href="" class="foot-link">
+                  Project
+                </a>           
+              </div>
+              <div class="foot-btn">
+                <a href="" class="foot-link">
+                  Blog
+                </a>           
+              </div>
+              <div class="foot-btn">
+                <a href="" class="foot-link">
+                  Contact
+                </a>           
+              </div>
+            </div>
+          </div>
+          
+          <div class="flex-11i">
+            <h5 class="navigation">Social Links</h5>
+            <div class="footer_link">
+              <a href="" class="social-link">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="" class="social-link">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a href="" class="social-link">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="" class="social-link">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+  
+        </div>
+  
+        <hr class="break-line">
+        <p class="copy-right text-center">
+          © Copyright 2020. All Right Reserved.
+        </p>
+      </footer>
+    
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+    crossorigin="anonymous"
+  ></script>
+    
+</body>
+</html>

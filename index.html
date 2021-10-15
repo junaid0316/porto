@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="typed.js-master"></script>
+    <title>Document</title>
+</head>
+<body>
+  
+  <nav id="mynav" class="">
+    <div class="wrapper">
+      <div class="logo">
+        <a href="index.html" class="excanc">
+          <img src="images/logo-construction-small.png" alt="" class="logo-nav">
+        </a>
+      </div>
+      <input type="radio" name="slider" id="menu-btn" />
+      <input type="radio" name="slider" id="close-btn" />
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"
+          ><i class="fas fa-times"></i
+        ></label>
+
+        <li>
+          <a href="#" class="desktop-item navbt"
+            >Domain Services <i class="fas fa-sort-down bottomico"></i>
+          </a>
+          <input type="checkbox" id="showDrop" />
+          <label for="showDrop" class="mobile-item"
+            >Domain Services <i class="fas fa-sort-down bottomico"></i></label>
+          <ul class="drop-menu">
+            <li><a href="#" >Domain Services</a></li>
+            <li><a href="#">Domain Management</a></li>
+            <li><a href="#">Domain Acquistion</a></li>
+            <li><a href="#">New gTLDs</a></li>
+            <li><a href="#">Domain Regulations</a></li>
+            <li><a href="#">WhoIs Privacy</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-item navbt"
+            >SSL <i class="fas fa-sort-down bottomico"></i>
+          </a>
+          <input type="checkbox" id="showDrop" />
+          <label for="showDrop" class="mobile-item"
+            >SSL <i class="fas fa-sort-down bottomico"></i></label>
+          <ul class="drop-menu">
+            <li><a href="#" >SSL Certificates</a></li>
+            <li><a href="#" >Domain Validation SSLs</a></li>
+            <li><a href="#" >Organisation Validation SSLs</a></li>
+            <li><a href="#" >Extended Validation SSLs</a></li>
+            <li><a href="#" >Wildcard SSLs</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-item navbt"
+            >Hosting <i class="fas fa-sort-down bottomico"></i>
+          </a>
+          <input type="checkbox" id="showDrop" />
+          <label for="showDrop" class="mobile-item"
+            >Hosting <i class="fas fa-sort-down bottomico"></i></label>
+          <ul class="drop-menu">
+            <li><a href="#" >Hosting Solutions</a></li>
+            <li><a href="#" >Dedicated Servers</a></li>
+            <li><a href="#" >Virtual Servers</a></li>
+            <li><a href="#" >Shared Hosting</a></li>
+            <li><a href="#" >Colocation Hosting</a></li>
+            <li><a href="#" >Data Centre</a></li>
+            <li><a href="#" >Disaster Recovery Solutions</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-item navbt"
+            >Brand Protection <i class="fas fa-sort-down bottomico"></i>
+          </a>
+          <input type="checkbox" id="showDrop" />
+          <label for="showDrop" class="mobile-item"
+            >Brand Protection <i class="fas fa-sort-down bottomico"></i></label>
+          <ul class="drop-menu">
+            <li><a href="#" >Brand Monitoring</a></li>
+            <li><a href="#" >Trademark Clearinghouse</a></li>
+            <li><a href="#" >DPML</a></li>
+            <li><a href="#" >Additional Monitoring</a></li>
+            <li><a href="#" >Legal Services</a></li>
+            <li><a href="#" >Brand Enforcement</a></li>
+            <li><a href="#" >Domain Dispute Resolution</a></li>
+            <li><a href="#" >Domain Valuation</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-item navbt"
+            >Security & Performance <i class="fas fa-sort-down bottomico"></i>
+          </a>
+          <input type="checkbox" id="showDrop" />
+          <label for="showDrop" class="mobile-item"
+            >Security & Performance <i class="fas fa-sort-down bottomico"></i></label>
+          <ul class="drop-menu">
+            <li><a href="#" >Cloudflare</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-item navbt"
+            >Resources <i class="fas fa-sort-down bottomico"></i>
+          </a>
+          <input type="checkbox" id="showDropcom" />
+          <label for="showDropcom" class="mobile-item"
+            >Resources <i class="fas fa-sort-down bottomico"></i></label>
+          <ul class="drop-menu">
+            <li><a href="#" >Blog</a></li>
+            <li><a href="#">Case Studies</a></li>
+            <li><a href="#">White Papers</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="navbt">About Us</a></li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"
+        ><i class="fas fa-bars"></i
+      ></label>
+    </div>
+  </nav>
+
+    <section class="header">
+        <div class="header_main">
+            <div class="typed_text_header">
+                <span id="typed"></span>
+            </div>
+            <p class="header_p">
+                We manage your domain name portfolio, handle disputes, host your data and keep your brand one step ahead online.
+            </p>
+            <div>
+                
+            <div class="cont_btn">
+                <a href="" class="cont_anc">Contact Us<i class="fal fa-long-arrow-right cont-ic"></i></a>
+            </div>
+            <div class="req_btn">
+                <a href="" class="req_anc">Request a Callback<i class="fal fa-long-arrow-right cont-ic"></i></a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="register_sect">
+        <div class="flexcontainer">
+            <div class="flex-1">
+                <div class="dpml">
+                    <img src="images/dpml-clock.svg" alt="" class="dpml_img">
+                    <div class="bubble_1">
+
+                    </div>
+                    <div class="bubble_2">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1i">
+                <h2 class="when">When should I register a DPML?</h2>
+                <p class="register_p">
+                    The earlier a DPML block is registered, the more useful it will be. A DPML block does not retroactively rescind third party registration in any New gTLD that launched prior to a DPML registration (i.e., DPML subscribers will be able to block any names that have not already been registered in those TLDs).
+                </p>
+                <p class="register_p">
+                    Safenames, along with both registries, recommend securing/registering your place on the DPML as soon as possible, as many New gTLDs have already launched. Your goal is to ensure the most complete coverage across all New gTLDs.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="service_sect">
+      <h3 class="ser-h3">
+        Services
+      </h3>
+      <p class="ser_p">
+        Cras a elit sit amet leo accumsan volutsudisse.
+      </p>
+      <div class="flexcontainer">
+        <div class="flex-2">
+          <div>
+            <div class="ser_ico">
+              <img src="images/plumbing.png" alt="" class="plumb-img">
+            </div>
+            <div class="ser_wr">
+              <h4 class="plumb-h4">
+                Plumbing
+              </h4>
+              <p class="ser_p2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia.
+              </p>
+              <a href="" class="view_more_btn">View More <i class="fal fa-long-arrow-right rig-arrow"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="flex-2i">
+          <div>
+            <div class="ser_ico">
+              <img src="images/construction.png" alt="" class="plumb-img">
+            </div>
+            <div class="ser_wr">
+              <h4 class="plumb-h4">
+                General-Construction
+              </h4>
+              <p class="ser_p2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia.
+              </p>
+              <a href="" class="view_more_btn">View More <i class="fal fa-long-arrow-right rig-arrow"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="flexcontainer sec-row">
+        <div class="flex-2">
+          <div>
+            <div class="ser_ico">
+              <img src="images/painting.png" alt="" class="plumb-img">
+            </div>
+            <div class="ser_wr">
+              <h4 class="plumb-h4">
+              Painting
+              </h4>
+              <p class="ser_p2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia.
+              </p>
+              <a href="" class="view_more_btn">View More <i class="fal fa-long-arrow-right rig-arrow"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="flex-2i">
+          <div>
+            <div class="ser_ico">
+              <img src="images/ground-construction.png" alt="" class="plumb-img">
+            </div>
+            <div class="ser_wr">
+              <h4 class="plumb-h4">
+                Pre-Construction
+              </h4>
+              <p class="ser_p2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia.
+              </p>
+              <a href="" class="view_more_btn">View More <i class="fal fa-long-arrow-right rig-arrow"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-sect">
+      <div class="proj-wr-home">
+        <h3 class="ser-h3">
+          Projects
+        </h3>
+        <p class="ser_p">
+          Cras a elit sit amet leo accumsan volutsudisse.
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="" class="proj-link">
+              <div class="container-proj">
+                <img src="images/construction-generic-1-medium-367x300.jpg"  class="image">
+                <div class="overlay">
+                  <div class="text"><i class="far fa-link icon-link"></i></div>
+                </div>
+              </div>
+            </a>  
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 colspace">
+            <a href="" class="proj-link">
+              <div class="container-proj">
+                <img src="images/construction-generic-10-medium-367x300.jpg"  class="image">
+                <div class="overlay">
+                  <div class="text"><i class="far fa-link icon-link"></i></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 colspace">
+            <a href="" class="proj-link">
+              <div class="container-proj">
+                <img src="images/construction-generic-2-medium-367x300.jpg"  class="image">
+                <div class="overlay">
+                  <div class="text"><i class="far fa-link icon-link"></i></div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="" class="proj-link">
+              <div class="container-proj">
+                <img src="images/construction-generic-3-medium-367x300.jpg"  class="image">
+                <div class="overlay">
+                  <div class="text"><i class="far fa-link icon-link"></i></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 colspace">
+            <a href="" class="proj-link">
+              <div class="container-proj">
+                <img src="images/construction-generic-6-medium-367x300.jpg"  class="image">
+                <div class="overlay">
+                  <div class="text"><i class="far fa-link icon-link"></i></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 colspace">
+            <a href="" class="proj-link">
+              <div class="container-proj">
+                <img src="images/construction-generic-9-medium-367x300.jpg"  class="image">
+                <div class="overlay">
+                  <div class="text"><i class="far fa-link icon-link"></i></div>
+                </div>
+              </div>
+            </a>
+        </div>
+        </div>
+      </div>
+
+      <div class="view-btn">
+        <a href="" class="view-proj-btn">View All Projects<i class="fal fa-long-arrow-right cont-ic"></i></a>
+    </div>
+    </section>
+
+    <section class="reliable_sect">
+      <div class="reliable_head text-center">
+        Reliable experts who understand your business
+      </div>
+      <div class="flexcontainer">
+        <div class="flex-3">
+          <img src="images/safe2-thin-60.svg" alt="" class="safe-img">
+          <h4 class="dom-name">
+            Domain Names
+          </h4>
+          <p class="reli_p">
+            We provide a dedicated account manager to manage all of your corporate domains.
+          </p>
+          <div class="find_btn">
+            <a href="" class="find_anc">Find out more <i class="fal fa-long-arrow-right cont-ic"></i></a>
+          </div>
+        </div>
+        <div class="flex-3i">
+          <img src="images/monitor-thin-60.svg" alt="" class="safe-img">
+          <h4 class="dom-name">
+            Brand Monitoring
+          </h4>
+          <p class="reli_p">
+            We will handle domain disputes, monitor your brand reputation and discover new opportunities.
+          </p>
+          <div class="find_btn">
+            <a href="" class="find_anc">Find out more <i class="fal fa-long-arrow-right cont-ic"></i></a>
+          </div>
+        </div>
+        <div class="flex-3i">
+          <img src="images/server-thin-60.svg" alt="" class="safe-img">
+          <h4 class="dom-name">
+            Hosting Services
+          </h4>
+          <p class="reli_p">
+            Our 3 tier security data centre is in a prime location within one hour from London.
+          </p>
+          <div class="find_btn">
+            <a href="" class="find_anc">Find out more <i class="fal fa-long-arrow-right cont-ic"></i></a>
+          </div>
+        </div>
+        <div class="flex-3i">
+          <img src="images/robot-thin-60.svg" alt="" class="safe-img">
+          <h4 class="dom-name">
+            Bot Mitigation
+          </h4>
+          <p class="reli_p">
+            We will detect and mitigate malicious bot attacks. Safeguarding your data.
+          </p>
+          <div class="find_btn">
+            <a href="" class="find_anc">Find out more <i class="fal fa-long-arrow-right cont-ic"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="carousel_sect">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="flexcontainer">
+              <div class="flex-4">
+                <div class="safe">
+                  “Safenames has reduced our cost by 50%”
+                </div>
+                <div class="reviewer">
+                  <div class="review_name">
+                    Daniel Bhatoa
+                  </div>
+                  <div class="designation">
+                    
+Technical Service Engineer,
+                  </div>
+                  <div class="designatoin">
+                    
+Identity & Access Management ,
+                  </div>
+                  <div class="designation">
+                    NHS Blood and Transplant
+                  </div>
+                </div>
+              </div>
+              <div class="flex-4i">
+                <img src="images/nhs-blood-logo.png" alt="" class="nhs-img">
+                <div class="req_btn review-req">
+                    <a href="" class="req_anc">Read the full case study<i class="fal fa-long-arrow-right cont-ic"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            
+            <div class="flexcontainer">
+              <div class="flex-4">
+                <div class="safe">
+                  “Safenames came out on top. Their domain and brand expertise is second to none ”
+                </div>
+                <div class="reviewer">
+                  <div class="review_name">
+                    Mark Bell
+                  </div>
+                  <div class="designation">
+                    System Engineer,
+                  </div>
+                  <div class="designatoin">
+                    Auto Trader
+                  </div>
+                </div>
+              </div>
+              <div class="flex-4i">
+                <img src="images/auto-trader-logo-white.png" alt="" class="nhs-img">
+                <div class="req_btn review-req">
+                    <a href="" class="req_anc">Read the full case study<i class="fal fa-long-arrow-right cont-ic"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            
+            <div class="flexcontainer">
+              <div class="flex-4">
+                <div class="safe">
+                  “It is always a comfort to know that your data is in safe and capable hands.”
+                </div>
+                <div class="reviewer">
+                  <div class="review_name">
+                    Sophie Rayner
+                  </div>
+                  <div class="designation">
+                    
+Global Marketing Manager,
+                  </div>
+                  <div class="designatoin">
+                    
+Horwath HTL
+                  </div>
+                </div>
+              </div>
+              <div class="flex-4i">
+                <img src="images/horwath-htl-logo-white.png" alt="" class="nhs-img">
+                <div class="req_btn review-req">
+                    <a href="" class="req_anc">Read the full case study<i class="fal fa-long-arrow-right cont-ic"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="blog_sect">
+      <div class="reliable_head text-center">
+      You may also be interested in
+      </div>
+      <div class="flexcontainer">
+        <div class="flex-5">
+          <a href="" class="blog_link">
+            <div class="blog-img-sect">
+              <img src="images/cybersquattingandopportunismtheheightenedthreatduringcoronaviruspart1homepage.png" alt="" class="img-blog">
+              <div class="blog_wr">
+                <div class="blog_p">
+                  Blog Post
+                </div>
+                <h4 class="cyber">
+                  Cybersquatting and Opportunism: The Heightened Threat During Coronavirus - Part 1
+                </h4>
+                <div class="right-ankle">
+                  <i class="far fa-angle-right"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="flex-5i">
+          <a href="" class="blog_link">
+            <div class="blog-img-sect">
+              <img src="images/domainblocking101guidehomepage.png" alt="" class="img-blog">
+              <div class="blog_wr">
+                <div class="blog_p">
+                  Blog Post
+                </div>
+                <h4 class="cyber">
+                  Domain Blocking 101 Guide
+                </h4>
+                <div class="right-ankle">
+                  <i class="far fa-angle-right"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="flex-5i">
+          <a href="" class="blog_link">
+            <div class="blog-img-sect">
+              <img src="images/domainnamearbitrationamatterofcredibilityhomepage.png" alt="" class="img-blog">
+              <div class="blog_wr">
+                <div class="blog_p">
+                  Blog Post
+                </div>
+                <h4 class="cyber">
+                  Domain Name Arbitration: A Matter of Credibility?
+                </h4>
+                <div class="right-ankle">
+                  <i class="far fa-angle-right"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="request_demo">
+      <div class="flexcontainer">
+        <div class="flex-6">
+          <div class="req">Request a Free Demo</div>
+          <p class="req_p">
+            When you book your demo we will customise it around your business.
+          </p>
+        </div>
+        <div class="flex-6i">
+          <div class="req_btn">
+              <a href="" class="req_anc">Book your free consultation<i class="fal fa-long-arrow-right cont-ic"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="expect_sect">
+      <div class="reliable_head text-center">
+        What you can expect from Safenames Hosting
+      </div>
+      <div class="flexcontainer">
+        <div class="flex-7">
+          <div>
+            <div class="expect-ic">
+              <img src="images/server-icon.svg" alt="" class="img-expect">
+            </div>
+            <div class="expect-wr">
+              <div class="power">
+                Powerful Dedicated Servers.
+              </div>
+              <p class="expect-p">
+                We are partnered with Dell and use the latest servers and equipment to ensure the best user experience for our customers.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex-7i">
+          <div>
+            <div class="expect-ic">
+              <img src="images/hardware-icon.svg" alt="" class="img-expect">
+            </div>
+            <div class="expect-wr">
+              <div class="power">
+                Advanced Hardware
+              </div>
+              <p class="expect-p">
+                We custom build and tailor the hardware we use specificly to cater to your needs. And if you need more than you thought, we can always add more.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flexcontainer sec-row">
+        <div class="flex-7">
+          <div>
+            <div class="expect-ic">
+              <img src="images/analytics.svg" alt="" class="img-expect">
+            </div>
+            <div class="expect-wr">
+              <div class="power">
+                24/7/365 Diagnostic Monitoring
+              </div>
+              <p class="expect-p">
+                We constantly track the individual status, health and temperature of your servers to ensure that everything is running as smoothly as possible.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex-7i">
+          <div>
+            <div class="expect-ic">
+              <img src="images/camera-icon.svg" alt="" class="img-expect">
+            </div>
+            <div class="expect-wr">
+              <div class="power">
+                Security Facilities
+              </div>
+              <p class="expect-p">
+                24/7/365 secure site with a full time security guard. Air-lock entry system and 5-day recordings of all of our CCTV cameras.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="flexcontainer">
+        <div class="flex-11">
+          <a href="">
+          <img src="images/logo-construction-small.png" alt="" class="logo-foot">
+          </a>
+        </div>
+        
+        <div class="flex-11i">
+          <h5 class="navigation">Navigation</h5>
+          <div class="footer_link">
+            <div class="foot-btn">
+              <a href="" class="foot-link">
+                Home
+              </a>           
+            </div>
+            <div class="foot-btn">
+              <a href="" class="foot-link">
+                Company
+              </a>           
+            </div>
+            <div class="foot-btn">
+              <a href="" class="foot-link">
+                Services
+              </a>           
+            </div>
+          </div>
+        </div>
+        
+        <div class="flex-11i proj-foot">
+          <h5 class="navigation"></h5>
+          <div class="footer_links">
+            <div class="foot-btn">
+              <a href="" class="foot-link">
+                Project
+              </a>           
+            </div>
+            <div class="foot-btn">
+              <a href="" class="foot-link">
+                Blog
+              </a>           
+            </div>
+            <div class="foot-btn">
+              <a href="" class="foot-link">
+                Contact
+              </a>           
+            </div>
+          </div>
+        </div>
+        
+        <div class="flex-11i">
+          <h5 class="navigation">Social Links</h5>
+          <div class="footer_link">
+            <a href="" class="social-link">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="" class="social-link">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="" class="social-link">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="" class="social-link">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <hr class="break-line">
+      <p class="copy-right text-center">
+        © Copyright 2020. All Right Reserved.
+      </p>
+    </footer>
+
+    <!-- <a href="#" class="backtotop" id="mybtn" onclick="topFunction()">
+        <i class="fas fa-chevron-up"></i>
+      </a> -->
+  
+      
+  <script src="typed.js-master/lib/typed.min.js">
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
+  <script>
+    $('document').ready(function(){
+      var typed = new Typed('#typed',{
+                      strings: ['Online Brand Protection.','Hosting Services.','Bot Mitigation.','Global Domain Registration.'],
+                      loop: true,
+                      backSpeed: 20,
+                      typeSpeed: 130
+                    });
+    });
+      
+  </script>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
+    
+</body>
+</html>

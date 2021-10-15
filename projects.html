@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <title>Projects</title>
+</head>
+<body>
+  
+  <nav id="mynav" class="">
+    <div class="wrapper">
+      <div class="logo">
+        <a href="index.html" class="excanc">
+          <img src="images/logo-construction-small.png" alt="" class="logo-nav">
+        </a>
+      </div>
+      <input type="radio" name="slider" id="menu-btn" />
+      <input type="radio" name="slider" id="close-btn" />
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"
+          ><i class="fas fa-times"></i
+        ></label>
+
+        <li>
+          <a href="#" class="desktop-item navbt"
+            >Domain Services <i class="fas fa-sort-down bottomico"></i>
+          </a>
+          <input type="checkbox" id="showDrop" />
+          <label for="showDrop" class="mobile-item"
+            >Domain Services <i class="fas fa-sort-down bottomico"></i></label>
+          <ul class="drop-menu">
+            <li><a href="#" >Domain Services</a></li>
+            <li><a href="#">Domain Management</a></li>
+            <li><a href="#">Domain Acquistion</a></li>
+            <li><a href="#">New gTLDs</a></li>
+            <li><a href="#">Domain Regulations</a></li>
+            <li><a href="#">WhoIs Privacy</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-item navbt"
+            >SSL <i class="fas fa-sort-down bottomico"></i>
+          </a>
+          <input type="checkbox" id="showDrop" />
+          <label for="showDrop" class="mobile-item"
+            >SSL <i class="fas fa-sort-down bottomico"></i></label>
+          <ul class="drop-menu">
+            <li><a href="#" >SSL Certificates</a></li>
+            <li><a href="#" >Domain Validation SSLs</a></li>
+            <li><a href="#" >Organisation Validation SSLs</a></li>
+            <li><a href="#" >Extended Validation SSLs</a></li>
+            <li><a href="#" >Wildcard SSLs</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-item navbt"
+            >Hosting <i class="fas fa-sort-down bottomico"></i>
+          </a>
+          <input type="checkbox" id="showDrop" />
+          <label for="showDrop" class="mobile-item"
+            >Hosting <i class="fas fa-sort-down bottomico"></i></label>
+          <ul class="drop-menu">
+            <li><a href="#" >Hosting Solutions</a></li>
+            <li><a href="#" >Dedicated Servers</a></li>
+            <li><a href="#" >Virtual Servers</a></li>
+            <li><a href="#" >Shared Hosting</a></li>
+            <li><a href="#" >Colocation Hosting</a></li>
+            <li><a href="#" >Data Centre</a></li>
+            <li><a href="#" >Disaster Recovery Solutions</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-item navbt"
+            >Brand Protection <i class="fas fa-sort-down bottomico"></i>
+          </a>
+          <input type="checkbox" id="showDrop" />
+          <label for="showDrop" class="mobile-item"
+            >Brand Protection <i class="fas fa-sort-down bottomico"></i></label>
+          <ul class="drop-menu">
+            <li><a href="#" >Brand Monitoring</a></li>
+            <li><a href="#" >Trademark Clearinghouse</a></li>
+            <li><a href="#" >DPML</a></li>
+            <li><a href="#" >Additional Monitoring</a></li>
+            <li><a href="#" >Legal Services</a></li>
+            <li><a href="#" >Brand Enforcement</a></li>
+            <li><a href="#" >Domain Dispute Resolution</a></li>
+            <li><a href="#" >Domain Valuation</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-item navbt"
+            >Security & Performance <i class="fas fa-sort-down bottomico"></i>
+          </a>
+          <input type="checkbox" id="showDrop" />
+          <label for="showDrop" class="mobile-item"
+            >Security & Performance <i class="fas fa-sort-down bottomico"></i></label>
+          <ul class="drop-menu">
+            <li><a href="#" >Cloudflare</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-item navbt"
+            >Resources <i class="fas fa-sort-down bottomico"></i>
+          </a>
+          <input type="checkbox" id="showDropcom" />
+          <label for="showDropcom" class="mobile-item"
+            >Resources <i class="fas fa-sort-down bottomico"></i></label>
+          <ul class="drop-menu">
+            <li><a href="#" >Blog</a></li>
+            <li><a href="#">Case Studies</a></li>
+            <li><a href="#">White Papers</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="navbt">About Us</a></li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"
+        ><i class="fas fa-bars"></i
+      ></label>
+    </div>
+  </nav>
+
+
+    
+    <section class="cont-header">
+        <div class="main-cont">
+            <div class="linking">
+                <a href="" class="home_link">HOME</a> > PROJECT
+            </div>
+            <div class="cont_heading">
+                Projects
+            </div>
+        </div>
+    </section>
+
+    <section class="main-proj">
+        <div class="buttons-sect">
+            <button class="btn-proj btn-proj1" onclick="showall()">Show All</button>
+            <button class="btn-proj" onclick="generalc()">General Construction</button>
+            <button class="btn-proj" onclick="painting()">Painting</button>
+            <button class="btn-proj" onclick="plumbing()">Plumbing</button>
+            <button class="btn-proj" onclick="prec()">Pre-Construction</button>
+        </div>
+
+        <div class="projects" id="proj1">
+            <div class="container">
+                <div class="row my-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="" class="proj-link">
+                        <div class="container-proj">
+                            <img src="images/construction-generic-1-medium-367x300.jpg"  class="image">
+                            <div class="overlay">
+                              <div class="text">View Project</div>
+                            </div>
+                          </div>
+                        </a>
+                        <div class="proj-det">
+                            <div class="loc">NEW YORK</div>
+                            <div class="site-name">Porto Building</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 colspace">
+                        <a href="" class="proj-link">
+                            <div class="container-proj">
+                                <img src="images/construction-generic-3-medium-367x300.jpg"  class="image">
+                                <div class="overlay">
+                                  <div class="text">View Project</div>
+                                </div>
+                              </div>
+                            </a>
+                            
+                            
+                        <div class="proj-det">
+                            <div class="loc">LOS ANGELES</div>
+                            <div class="site-name">Okler Towers</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 colspace">
+                        <a href="" class="proj-link">
+                            <div class="container-proj">
+                                <img src="images/construction-generic-2-medium-367x300.jpg"  class="image">
+                                <div class="overlay">
+                                  <div class="text">View Project</div>
+                                </div>
+                              </div>
+                        </a>
+                        
+                        
+                        <div class="proj-det">
+                            <div class="loc">NEW JERSEY</div>
+                            <div class="site-name">Jet Hotels</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row my-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="" class="proj-link">
+                        <div class="container-proj">
+                            <img src="images/construction-generic-6-medium-367x300.jpg"  class="image">
+                            <div class="overlay">
+                              <div class="text">View Project</div>
+                            </div>
+                          </div>
+                        </a>
+                        <div class="proj-det">
+                            <div class="loc">CHICAGO</div>
+                            <div class="site-name">Okler Mansion</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 colspace">
+                        <a href="" class="proj-link">
+                            <div class="container-proj">
+                                <img src="images/construction-generic-9-medium-367x300.jpg"  class="image">
+                                <div class="overlay">
+                                  <div class="text">View Project</div>
+                                </div>
+                              </div>
+                            </a>
+                            <div class="proj-det">
+                                <div class="loc">DETROIT</div>
+                                <div class="site-name">
+                                    Marina Building
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 colspace">
+                        <a href="" class="proj-link">
+                            <div class="container-proj">
+                                <img src="images/construction-generic-10-medium-367x300.jpg"  class="image">
+                                <div class="overlay">
+                                  <div class="text">View Project</div>
+                                </div>
+                              </div>
+                        </a>
+                        <div class="proj-det">
+                            <div class="loc">MIAMI</div>
+                            <div class="site-name">One Lofts</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="projects" id="proj2">
+            <div class="container">
+                <div class="row my-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="" class="proj-link">
+                        <div class="container-proj">
+                            <img src="images/construction-generic-1-medium-367x300.jpg"  class="image">
+                            <div class="overlay">
+                              <div class="text">View Project</div>
+                            </div>
+                          </div>
+                        </a>
+                        <div class="proj-det">
+                            <div class="loc">NEW YORK</div>
+                            <div class="site-name">Porto Building</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 colspace">
+                        <a href="" class="proj-link">
+                            <div class="container-proj">
+                                <img src="images/construction-generic-3-medium-367x300.jpg"  class="image">
+                                <div class="overlay">
+                                  <div class="text">View Project</div>
+                                </div>
+                              </div>
+                            </a>
+                            
+                        <div class="proj-det">
+                            <div class="loc">LOS ANGELES</div>
+                            <div class="site-name">Okler Towers</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 colspace">
+                        <a href="" class="proj-link">
+                            <div class="container-proj">
+                                <img src="images/construction-generic-2-medium-367x300.jpg"  class="image">
+                                <div class="overlay">
+                                  <div class="text">View Project</div>
+                                </div>
+                              </div>
+                        </a>
+                        
+                        <div class="proj-det">
+                            <div class="loc">NEW JERSEY</div>
+                            <div class="site-name">Jet Hotels</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects" id="proj3">
+            <div class="container">
+                <div class="row my-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="" class="proj-link">
+                            <div class="container-proj">
+                                <img src="images/construction-generic-3-medium-367x300.jpg"  class="image">
+                                <div class="overlay">
+                                  <div class="text">View Project</div>
+                                </div>
+                              </div>
+                            </a>
+                            
+                        <div class="proj-det">
+                            <div class="loc">LOS ANGELES</div>
+                            <div class="site-name">Okler Towers</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 colspace">
+                        <a href="" class="proj-link">
+                            <div class="container-proj">
+                                <img src="images/construction-generic-2-medium-367x300.jpg"  class="image">
+                                <div class="overlay">
+                                  <div class="text">View Project</div>
+                                </div>
+                              </div>
+                        </a>
+                        
+                        <div class="proj-det">
+                            <div class="loc">NEW JERSEY</div>
+                            <div class="site-name">Jet Hotels</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="projects" id="proj4">
+            <div class="container">
+                <div class="row my-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="" class="proj-link">
+                        <div class="container-proj">
+                            <img src="images/construction-generic-1-medium-367x300.jpg"  class="image">
+                            <div class="overlay">
+                              <div class="text">View Project</div>
+                            </div>
+                          </div>
+                        </a>
+                        <div class="proj-det">
+                            <div class="loc">NEW YORK</div>
+                            <div class="site-name">Porto Building</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="" class="proj-link">
+                            <div class="container-proj">
+                                <img src="images/construction-generic-3-medium-367x300.jpg"  class="image">
+                                <div class="overlay">
+                                  <div class="text">View Project</div>
+                                </div>
+                              </div>
+                            </a>
+                            
+                        <div class="proj-det">
+                            <div class="loc">LOS ANGELES</div>
+                            <div class="site-name">Okler Towers</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="" class="proj-link">
+                            <div class="container-proj">
+                                <img src="images/construction-generic-2-medium-367x300.jpg"  class="image">
+                                <div class="overlay">
+                                  <div class="text">View Project</div>
+                                </div>
+                              </div>
+                        </a>
+                        
+                        <div class="proj-det">
+                            <div class="loc">NEW JERSEY</div>
+                            <div class="site-name">Jet Hotels</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row my-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="" class="proj-link">
+                        <div class="container-proj">
+                            <img src="images/construction-generic-1-medium-367x300.jpg"  class="image">
+                            <div class="overlay">
+                              <div class="text">View Project</div>
+                            </div>
+                          </div>
+                        </a>
+                        <div class="proj-det">
+                            <div class="loc">NEW YORK</div>
+                            <div class="site-name">Porto Building</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 colspace">
+                        <a href="" class="proj-link">
+                            <div class="container-proj">
+                                <img src="images/construction-generic-2-medium-367x300.jpg"  class="image">
+                                <div class="overlay">
+                                  <div class="text">View Project</div>
+                                </div>
+                              </div>
+                        </a>
+                        
+                        <div class="proj-det">
+                            <div class="loc">NEW JERSEY</div>
+                            <div class="site-name">Jet Hotels</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects" id="proj5">
+            <div class="container">
+                <div class="row my-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="" class="proj-link">
+                            <div class="container-proj">
+                                <img src="images/construction-generic-3-medium-367x300.jpg"  class="image">
+                                <div class="overlay">
+                                  <div class="text">View Project</div>
+                                </div>
+                              </div>
+                            </a>
+                            
+                        <div class="proj-det">
+                            <div class="loc">LOS ANGELES</div>
+                            <div class="site-name">Okler Towers</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer>
+        <div class="flexcontainer">
+          <div class="flex-11">
+            <a href="">
+            <img src="images/logo-construction-small.png" alt="" class="logo-foot">
+            </a>
+          </div>
+          
+          <div class="flex-11i">
+            <h5 class="navigation">Navigation</h5>
+            <div class="footer_link">
+              <div class="foot-btn">
+                <a href="" class="foot-link">
+                  Home
+                </a>           
+              </div>
+              <div class="foot-btn">
+                <a href="" class="foot-link">
+                  Company
+                </a>           
+              </div>
+              <div class="foot-btn">
+                <a href="" class="foot-link">
+                  Services
+                </a>           
+              </div>
+            </div>
+          </div>
+          
+          <div class="flex-11i">
+            <h5 class="navigation"></h5>
+            <div class="footer_links">
+              <div class="foot-btn">
+                <a href="" class="foot-link">
+                  Project
+                </a>           
+              </div>
+              <div class="foot-btn">
+                <a href="" class="foot-link">
+                  Blog
+                </a>           
+              </div>
+              <div class="foot-btn">
+                <a href="" class="foot-link">
+                  Contact
+                </a>           
+              </div>
+            </div>
+          </div>
+          
+          <div class="flex-11i">
+            <h5 class="navigation">Social Links</h5>
+            <div class="footer_link">
+              <a href="" class="social-link">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="" class="social-link">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a href="" class="social-link">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="" class="social-link">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+  
+        </div>
+  
+        <hr class="break-line">
+        <p class="copy-right text-center">
+          © Copyright 2020. All Right Reserved.
+        </p>
+      </footer>
+
+
+    <script>
+        var project1=document.getElementById("proj1");
+        var project2=document.getElementById("proj2");
+        var project3=document.getElementById("proj3");
+        var project4=document.getElementById("proj4");
+        var project5=document.getElementById("proj5");
+        var btns=document.getElementsByClassName("btn-proj");
+
+        function showall(){
+            project1.style.display="block";
+            project2.style.display="none";
+            project3.style.display="none";
+            project4.style.display="none";
+            project5.style.display="none";
+            btns[0].style.borderBottom="2px solid #155174";
+        }
+        function generalc(){
+            project1.style.display="none";
+            project2.style.display="block";
+            project3.style.display="none";
+            project4.style.display="none";
+            project5.style.display="none";
+            btns[0].style.borderBottom="none";
+        }
+        function painting(){
+            project1.style.display="none";
+            project2.style.display="none";
+            project3.style.display="block";
+            project4.style.display="none";
+            project5.style.display="none";
+            btns[0].style.borderBottom="none";
+        }
+        function plumbing(){
+            project1.style.display="none";
+            project2.style.display="none";
+            project3.style.display="none";
+            project4.style.display="block";
+            project5.style.display="none";
+            btns[0].style.borderBottom="none";
+        }
+        function prec(){
+            project1.style.display="none";
+            project2.style.display="none";
+            project3.style.display="none";
+            project4.style.display="none";
+            project5.style.display="block";
+            btns[0].style.borderBottom="none";
+        }
+
+
+    </script>
+
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
